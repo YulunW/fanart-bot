@@ -8,7 +8,7 @@ if __name__ == '__main__':
     nonebot.init(config)
     nonebot.load_builtin_plugins()
     nonebot.load_plugins(
-        path.join(path.dirname(__file__), 'plugins'),
-        'awesome.plugins'
+        path.join(path.dirname(__file__), 'fanart', 'plugins'),
+        'fanart.plugins'
     )
     nonebot.run()
