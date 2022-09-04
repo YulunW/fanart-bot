@@ -4,8 +4,7 @@ import random
 import re
 from typing import Optional
 
-HELPER_MESSAGE = """
-参数格式不正确。当前支持的参数格式为：
+HELPER_MESSAGE = """参数格式不正确。当前支持的参数格式为：
 0. 无参数 将返回1-100之间的随机数（包括1和100）
 1. 自然数-自然数 其中两个自然数会分别被识别为随机指令的上下限。如：5-20
 2. 正整数 这个正整数会被识别味随机指令的上限。如：20
